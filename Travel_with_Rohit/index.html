@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff">
+    <script src="index.js" defer></script>
+    <title>Travel_With_Rohit</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+
+    <!--css file-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!--script file-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Travel With <span class="text-warning">Rohit</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">North-East-Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <br /><br /><br />
+
+    <!--Alert section-->
+    <div class="alert alert-success container w-75 position-relative top-0 right-0 mx-auto " role="alert" id="alert"
+        style="z-index: 99; display: none; ">
+        <span>To add a shortcut App to your Home Screen, <b style="color: #ff3d30 !important;">CLICK INSTALL! </b>
+        </span>
+    </div>
+    <!--Home section-->
+    <section id="home" class="about  m-0 pb-0 active">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/tajmahal.jpg" class="d-block w-100" alt="tajmahal">
+                    <div class="carousel-caption">
+                        <h5>Tajmahal</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus illo libero
+                            rerum
+                            quisquam? Provident, itaque voluptatibus quia officia dolor possimus sunt, consequuntur
+                            facilis
+                            atque ullam neque dolorum ratione culpa?</p>
+                        <p><a href="https://3danimationz.netlify.app/" class="btn btn-warning mt-3">Lern-More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/delhi.jpg" class="d-block w-100" alt="indiagate">
+                    <div class="carousel-caption">
+                        <h5>IndiaGate</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit maxime, necessitatibus
+                            voluptates
+                            assumenda libero rem magni dolorem in culpa? Nam maiores aut hic praesentium labore impedit
+                            illo
+                            itaque voluptas necessitatibus?</p>
+                        <p><a href="https://3danimationz.netlify.app/" class="btn btn-warning mt-3">Lern-More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hawa-mahal.jpg" class="d-block w-100" alt="hawamahal">
+                    <div class="carousel-caption">
+                        <h5>HawaMahal</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, cumque debitis? Repellat atque
+                            aspernatur fuga facilis deleniti dolor omnis enim, cupiditate est quos, iure numquam
+                            eligendi
+                            adipisci, debitis sed fugiat!</p>
+                        <p><a href="https://3danimationz.netlify.app/" class="btn btn-warning mt-3">Lern-More</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+    </section>
+    <!--about section-->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="img/siva.jpg" alt="siva" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>Best Tourism <br />Place In INDIA</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, quas consequuntur
+                            necessitatibus eaque beatae placeat nostrum provident mollitia totam. Cum ipsam odio
+                            quisquam fugit, perferendis delectus, a consequuntur qui dolorum eum culpa repellendus vel.
+                            Dolores eius nisi odio hic commodi. Esse a quas atque harum tempora quisquam molestiae
+                            recusandae omnis!</p>
+                        <a href="#" class="btn btn-warning">Lern-More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services section-->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our services</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Inventore voluptas, corporis
+                            qui magnam labore sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-subtract"></i>
+                            <h3 class="card-title">Best Places</h3>
+                            <p class="load">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae,
+                                temporibus omnis quia accusamus reiciendis nihil a? Quos velit vitae laboriosam
+                                quibusdam! Quod, temporibus dolore!</p>
+                            <button class="btn btn-warning text-dark">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-slack"></i>
+                            <h3 class="card-title">Manali&Simla</h3>
+                            <p class="load">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae,
+                                temporibus omnis quia accusamus reiciendis nihil a? Quos velit vitae laboriosam
+                                quibusdam! Quod, temporibus dolore!</p>
+                            <button class="btn btn-warning text-dark">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-playstation"></i>
+                            <h3 class="card-title">Karnataka&TanilNadu</h3>
+                            <p class="load">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae,
+                                temporibus omnis quia accusamus reiciendis nihil a? Quos velit vitae laboriosam
+                                quibusdam! Quod, temporibus dolore!</p>
+                            <button class="btn btn-warning text-dark">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--portfolio section-->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Best North_East_Places</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Inventore voluptas, corporis
+                            qui magnam labore sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card  text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/dargling.jpg" alt="dargling" class="image-fluid">
+                            </div>
+                            <h3 class="card-title">Darjeeling</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus
+                                dolores ratione debitis consequatur quo soluta aliquid eius iusto amet velit at
+                                reiciendis, in exercitationem inventore facere recusandae maxime dolore.</p>
+                            <button class="btn bg-warning text-dark">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card  text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/sikkim.jfif" alt="dargling" class="image-fluid">
+                            </div>
+                            <h3 class="card-title">Sikkim</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus
+                                dolores ratione debitis consequatur quo soluta aliquid eius iusto amet velit at
+                                reiciendis, in exercitationem inventore </p>
+                            <button class="btn bg-warning text-dark">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card  text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/assam.jpg" alt="dargling" class="image-fluid">
+                            </div>
+                            <h3 class="card-title">Assam</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus
+                                dolores ratione debitis consequatur quo soluta aliquid eius iusto amet velit</p>
+                            <button class="btn bg-warning text-dark">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Team section-->
+    <section id="team" class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our Team</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Inventore voluptas, corporis
+                            qui magnam labore sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/rohit.png" alt="rohit" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2"> S_Rohit_Kumar<h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark"></i>
+                                        <i class="bi bi-facebook text-dark"></i>
+                                        <i class="bi bi-linkedin text-dark"></i>
+                                        <i class="bi bi-instagram text-dark"></i>
+                                    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/rohit.png" alt="rohit" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2"> S_Rohit_Kumar<h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark"></i>
+                                        <i class="bi bi-facebook text-dark"></i>
+                                        <i class="bi bi-linkedin text-dark"></i>
+                                        <i class="bi bi-instagram text-dark"></i>
+                                    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/rohit.png" alt="rohit" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2"> S_Rohit_Kumar<h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark"></i>
+                                        <i class="bi bi-facebook text-dark"></i>
+                                        <i class="bi bi-linkedin text-dark"></i>
+                                        <i class="bi bi-instagram text-dark"></i>
+                                    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="img/rohit.png" alt="rohit" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2"> S_Rohit_Kumar<h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark"></i>
+                                        <i class="bi bi-facebook text-dark"></i>
+                                        <i class="bi bi-linkedin text-dark"></i>
+                                        <i class="bi bi-instagram text-dark"></i>
+                                    </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--contact section-->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Contact</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Inventore voluptas, corporis
+                            qui magnam labore sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-light p-4.m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" required placeholder="Your Full Name">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" required placeholder="Enter Your email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea rows="3" required class="form-control"
+                                        placeholder="Write Message Here"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--modal b0x-->
+    <div class="modal" tabindex="-1" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Should I include a shortcut App to Home Screen?</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" id="shortKey" data-bs-dismiss="modal" type="button"
+                        data-target="#alert">Yes!</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No!</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="later"><abbr
+                            title="It will remind you after 30 sec">Remind me later</abbr> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer section-->
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">All Right Reserved @Travling With Rohit</p>
+        </div>
+    </footer>
+</body>
+
+</html>

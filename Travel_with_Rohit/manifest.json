@@ -1,0 +1,26 @@
+{
+    "short_name": "App",
+    "name": "Rohit_With_Traveling",
+      "icons": [
+        {
+          "src": "logo1.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "logo2.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "orientation": "portrait-primary",
+      "start_url": "./index.html",
+      "display": "standalone",
+      "background_color": "#ffffff",
+      "theme_color": "#000000",
+      "prefer_related_applications": false,
+      "scope": "./index.html",
+      "id": "s_l_groups"
+    }
+  
+    
